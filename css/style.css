@@ -253,7 +253,24 @@ list-style: linear-gradient(rgb(61, 247, 61), rgb(10, 134, 10));
     display: block !important;
 }
 
+
+.calendar {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.calendar iframe {
+    width: 60%;
+}
+
 @media (max-width: 768px) {
+
+    
+    .calendar iframe {
+        width: 100%;
+    }
 
     body{
         font-size: 16px;
